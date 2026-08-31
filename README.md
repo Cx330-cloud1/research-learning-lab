@@ -1,124 +1,95 @@
-﻿# Research Learning Lab
+# Research Learning Lab
 
-> A structured learning record of the mathematical and technical foundations I am building for AI research.
+> 面向 AI 科研的系统化学习与能力训练记录。
 
-## Purpose
+## 仓库目标
 
-This repository records systematic coursework and technical foundations for research in NLP, LLMs, conversational AI, empathetic dialogue, human-centered AI, and LLM agents.
+本仓库用于记录 AI 科研所需的数学、编程、机器学习、NLP、LLM、Agent 与科研方法基础。
 
-**Learning philosophy:** Learn → Understand → Implement → Analyze → Connect to Research
+学习路径：
 
-## Repository Structure
+**学习 → 理解 → 实现 → 分析 → 连接科研**
 
-- `01-Mathematics` — Linear algebra, calculus, probability, statistics, optimization
-- `02-Programming` — Python, NumPy, Pandas, PyTorch
-- `03-Machine-Learning` — Core ML, evaluation, error analysis
-- `04-Deep-Learning` — Neural networks, backpropagation, optimization, training
-- `05-NLP` — Embeddings, RNNs, attention, Transformers
-- `06-LLM` — Language modeling, prompting, fine-tuning, PEFT, evaluation
-- `07-Agents` — Agent architecture, tools, memory, evaluation
-- `08-Research-Skills` — Paper reading, experiment design, statistics, academic writing
+## 仓库结构
 
-## Learning Principles
+- `01-Mathematics` — 线性代数、微积分、概率统计、优化
+- `02-Programming` — Python、NumPy、Pandas、PyTorch
+- `03-Machine-Learning` — 机器学习基础、模型评估、误差分析
+- `04-Deep-Learning` — 神经网络、反向传播、优化与训练
+- `05-NLP` — Embedding、RNN、Attention、Transformer
+- `06-LLM` — Language Modeling、Prompting、Fine-Tuning、PEFT、Evaluation
+- `07-Agents` — Agent Architecture、Tool Use、Memory、Evaluation
+- `08-Research-Skills` — 论文阅读、实验设计、统计分析与学术写作
 
-### 1. Learn for Research
-Course learning should directly support future research.
+## 学习原则
 
-### 2. Understand Before Memorizing
-Focus on intuition, mathematics, implementation, and limitations.
+1. **面向科研学习**  
+   课程学习最终应服务于论文理解、实验实现和研究问题。
 
-### 3. Implement Important Concepts
-Whenever possible, move from theory to code and from code to a small experiment.
+2. **理解优先于记忆**  
+   重点掌握直觉、数学原理、实现方式与适用边界。
 
-### 4. Connect Learning to Research
-For each important topic, ask how it can be used in NLP, LLMs, empathetic dialogue, or human-centered AI.
+3. **重要概念必须实现**  
+   尽可能完成“理论 → 代码 → 小实验”。
 
-### 5. Avoid Course Collecting
-The goal is not to finish as many courses as possible. The goal is to use what I learn to understand and conduct research.
+4. **建立科研联系**  
+   思考所学知识如何用于 NLP、LLM、对话系统与 Human-Centered AI。
 
-## Learning Resources
+5. **避免课程收集**  
+   目标不是完成更多课程，而是形成真正能够用于科研的能力。
+
+## 学习资源
 
 ### Mathematics
 
 - [MIT 18.06 — Linear Algebra](https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/)
-  - Linear algebra fundamentals for machine learning and deep learning
-
 - [Mathematics for Machine Learning and Data Science](https://www.deeplearning.ai/specializations/mathematics-for-machine-learning-and-data-science/)
-  - Linear algebra, calculus, probability, and statistics for ML
 
-### Programming and PyTorch
+### Programming & PyTorch
 
 - [PyTorch — Learn the Basics](https://docs.pytorch.org/tutorials/beginner/basics/)
-  - Tensors, datasets, models, autograd, optimization, and training loops
-
 - [PyTorch Tutorials](https://docs.pytorch.org/tutorials/)
-  - Official tutorials for practical PyTorch development
 
 ### Machine Learning
 
 - [Machine Learning Specialization](https://www.deeplearning.ai/specializations/machine-learning-introduction/)
-  - Core machine learning concepts, supervised learning, neural networks, and model evaluation
 
-### Natural Language Processing
+### NLP
 
 - [Stanford CS224N — Natural Language Processing with Deep Learning](https://web.stanford.edu/class/cs224n/)
-  - Embeddings, RNNs, attention, Transformers, and modern NLP
 
-### Large Language Models
+### LLM
 
 - [Stanford CS336 — Language Modeling from Scratch](https://cs336.stanford.edu/)
-  - Language model implementation and training from first principles
 
 ### Human-Centered AI
 
 - [Stanford CS329X — Human-Centered LLMs](https://web.stanford.edu/class/cs329x/)
-  - Personalization, alignment, evaluation, privacy, and human-centered LLM research
 
-### AI Agents
+### Agents
 
 - [Hugging Face Agents Course](https://huggingface.co/learn/agents-course/unit0/introduction)
-  - Agent fundamentals, tool use, agentic workflows, and evaluation
 
-## Current Learning Path
+## 当前阶段
 
-`Linear Algebra + Python/PyTorch`
+**Phase 1 — Research Foundations**
 
-↓
+当前重点：
 
-`Machine Learning`
+`Python / PyTorch + Linear Algebra + Paper Reading`
 
-↓
+详细学习计划见：
 
-`NLP / CS224N`
+- [Week 1 — 科研基础启动](./WEEK-01.md)
 
-↓
+## 仓库分工
 
-`Transformers and LLMs`
+- `research-learning-lab`：科研知识与技术基础学习
+- `llm-research-reproduction`：已有论文复现
+- 独立 Research Repository：原创研究问题与正式实验
 
-↓
+## 长期目标
 
-`Human-Centered LLMs`
+**基础学习 → 技术实现 → 论文阅读 → 论文复现 → Research Question → Original Research**
 
-↓
-
-`Agents`
-
-↓
-
-`Advanced Language Modeling / CS336`
-
-## Scope
-
-This repository contains mathematical foundations, programming, ML, deep learning, NLP, LLMs, agents, and research methodology.
-
-## Repository Roles
-
-- `research-learning-lab`: What knowledge and technical skills am I building?
-- `llm-research-reproduction`: Can I reproduce existing research?
-- Future independent research repositories: Can I formulate and investigate an original research question?
-
-## Long-Term Goal
-
-Foundations → Implementation → Research Reading → Reproduction → Research Questions → Original Research
-
-> Build the foundations. Implement the ideas. Read critically. Research independently.
+> 系统学习，认真实现，最终形成独立科研能力。
