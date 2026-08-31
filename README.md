@@ -45,10 +45,31 @@
 - [MIT 18.06 — Linear Algebra](https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/)
 - [Mathematics for Machine Learning and Data Science](https://www.deeplearning.ai/specializations/mathematics-for-machine-learning-and-data-science/)
 
-### Programming & PyTorch
+### Python
+
+- [Python Official Tutorial](https://docs.python.org/3/tutorial/)
+  - Python 官方教程
+  - 适合系统学习语法、数据结构、函数、文件处理、异常和模块
+
+- [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/)
+  - 更偏实践
+  - 适合练习文件处理、文本处理、CSV、JSON 等科研中常用任务
+
+- [NumPy Quickstart](https://numpy.org/doc/stable/user/quickstart.html)
+  - NumPy 官方入门
+  - 数组、shape、索引、广播、矩阵运算
+
+- [pandas Getting Started](https://pandas.pydata.org/docs/getting_started/index.html)
+  - pandas 官方入门
+  - 表格数据读取、清洗、筛选、统计与导出
+
+### PyTorch
 
 - [PyTorch — Learn the Basics](https://docs.pytorch.org/tutorials/beginner/basics/)
+  - Tensor、Dataset、DataLoader、Model、Autograd、Optimization
+
 - [PyTorch Tutorials](https://docs.pytorch.org/tutorials/)
+  - PyTorch 官方完整教程
 
 ### Machine Learning
 
