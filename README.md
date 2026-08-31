@@ -40,8 +40,6 @@ The goal is not to finish as many courses as possible. The goal is to use what I
 
 This repository contains mathematical foundations, programming, ML, deep learning, NLP, LLMs, agents, and research methodology.
 
-It intentionally excludes research reproduction, independent research experiments, personal engineering projects, IELTS preparation, and general university coursework.
-
 ## Repository Roles
 
 - `research-learning-lab`: What knowledge and technical skills am I building?
